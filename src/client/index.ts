@@ -23,7 +23,7 @@ export type PostHogComponent = {
         host?: string;
         userId: string;
         event: string;
-        properties?: any;
+        properties?: Record<string, unknown>;
       },
       null
     >;
